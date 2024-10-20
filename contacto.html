@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Iniciar seccion</title>
+	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
+	<link rel="icon" type="image/png" href="./images/Logotipo-removebg-preview.png" />
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/contacto.css">
+</head>
+
+<body>
+	<header id="header">
+		<a href="./servicios.html">
+			<img src="./images/icons8-izquierda-círculo-64.png" alt=""></a>
+	</header>
+	<div class="main">
+		<input type="checkbox" id="chk" aria-hidden="true">
+		<div class="sign">
+			<form id="form">
+				<img id="logo" src="./images/logo.jpg" alt="">
+				<label for="chk" aria-hidden="true">Contacto</label>
+				<input type="text" name="pswd" placeholder="Nombre" required="" id="nombre">
+				<input type="text" name="pswd" placeholder="Sugerencia / Inquietud" required="" id="sugerencia">
+				<input type="email" name="pswd" placeholder="Correo" required="" id="correo">
+				<button id="Enviar">Enviar</button>
+			</form>
+		</div>
+	</div>
+	<script type="module" src="./js/firebase.js"></script>
+
+	<script  type="module" src="https://www.gstatic.com/firebasejs/10.5.2/firebase-app-compat.js"></script>
+	<script type="module" src="https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore-compat.js"></script>
+</body>
+
+</html>
